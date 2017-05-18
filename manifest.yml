@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Smart S-lock Project Node-RED
+  host: Smart-S-lock-Project-Node-RED
+  disk_quota: 1024M
+  services:
+  - Smart S-lock Project Node-RED-cloudantNoSQLDB
+  - availability-monitoring-auto
